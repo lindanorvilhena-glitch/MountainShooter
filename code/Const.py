@@ -1,11 +1,11 @@
 # C
 import pygame
 
-C_ORANGE = (255, 128, 0)
-C_YELLOW = (255, 255, 128)
-C_WHITE = (255, 255, 255)
-C_GREEN = (0, 128, 0)
-C_CYAN = (0, 128, 128)
+C_ORANGE = (255,140,0)
+C_YELLOW = (255,255,0)
+C_WHITE = (255,250,250)
+C_GREEN = (0,255,127)
+C_CYAN = (0,255,255)
 
 # E
 EVENT_ENEMY = pygame.USEREVENT + 1
