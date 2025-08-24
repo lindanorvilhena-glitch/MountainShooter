@@ -1,6 +1,6 @@
-# C
 import pygame
 
+# C
 C_ORANGE = (255,140,0)
 C_YELLOW = (255,255,0)
 C_WHITE = (255,250,250)
@@ -116,17 +116,21 @@ MENU_OPTION = ('NEW GAME 1P',
                'SCORE',
                'EXIT')
 
-# P
+# p
 PLAYER_KEY_UP = {'Player1': pygame.K_UP,
-                 'Player2': pygame.K_w}
+                 'Player2': pygame.K_w,
+                 }
 PLAYER_KEY_DOWN = {'Player1': pygame.K_DOWN,
-                   'Player2': pygame.K_s}
+                   'Player2': pygame.K_s,
+                   }
 PLAYER_KEY_LEFT = {'Player1': pygame.K_LEFT,
-                   'Player2': pygame.K_a}
+                   'Player2': pygame.K_a,
+                   }
 PLAYER_KEY_RIGHT = {'Player1': pygame.K_RIGHT,
-                    'Player2': pygame.K_d}
-PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
-                    'Player2': pygame.K_LCTRL}
+                    'Player2': pygame.K_d,
+                    }
+PLAYER_KEY_SHOOT = {'Player1': pygame.K_x,
+                    'Player2': pygame.K_b}
 
 # S
 SPAWN_TIME = 4000
